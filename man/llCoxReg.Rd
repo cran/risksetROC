@@ -15,7 +15,7 @@
   \item{Stime}{For right censored data, this is the follow up time. For
     left truncated data, this is the ending time for the interval.}  
   \item{entry}{For left truncated data, this is the entry time of
-    the interval. The default is set to \it{NULL} for right censored
+    the interval. The default is set to NULL for right censored
     data.}  
   \item{status}{Survival status.}
   \item{marker}{Marker value.}

@@ -19,7 +19,7 @@
   \item{status}{Indicator of status, 1 if death or event, 0 otherwise.}
   \item{predict.time}{Time point of the ROC curve.}
   \item{entry}{For left truncated data, this is the entry time of
-    the interval. The default is set to \it{NULL} for right censored
+    the interval. The default is set to NULL for right censored
     data.}
 }
 \details{Suppose we have censored survival data (right censored or both
