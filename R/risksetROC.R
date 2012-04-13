@@ -343,7 +343,7 @@ llCoxReg <- function(Stime, entry=NULL, status, marker, span=0.40, p=1,
                        wt=wt )
         ##
         tpfit <- coxph( Surv(start,finish,status) ~ tpx+tpxt, tpcox,
-                       weight=wt)
+                       weights=wt)
         ddd <- 2*abs( tpfit$loglik[1] - tpfit$loglik[2] )
         ddd <- (ddd - length(tpfit$coef))/ddd
         ##
@@ -364,7 +364,7 @@ llCoxReg <- function(Stime, entry=NULL, status, marker, span=0.40, p=1,
       ## tpfit <- coxph( Surv(start,finish,status) ~ tpx + tpxt +
       ##                tpx2 + tpx2t,
       ##                tpcox,
-      ##                weight=wt)
+      ##                weights=wt)
       ## DATE:OCT 12, 2006 -- The above definition of tpcox and
       ## consequently tpfit changed to the following 
       tpcox <- list(start  = tpp[,1],                 
@@ -377,7 +377,7 @@ llCoxReg <- function(Stime, entry=NULL, status, marker, span=0.40, p=1,
       tpfit <- coxph( Surv(start,finish,status) ~ tpx + tpxt +
                      tpxt2,
                      tpcox,
-                     weight=wt)
+                     weights=wt)
       
       ddd <- 2*abs( tpfit$loglik[1] - tpfit$loglik[2] )
       ddd <- (ddd - length(tpfit$coef))/ddd

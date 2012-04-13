@@ -1,0 +1,15 @@
+ba1722fdeed9f8866e31518d2a9ff425 *DESCRIPTION
+cab0693b349bfc77b8d8becdbc279032 *NAMESPACE
+2492baea9e0c60c511434a580b779038 *R/risksetROC.R
+26b63feecc56080eb21064472663a8d0 *data/pbc.RData
+8a83099fd6d1313751a586fd7a36ec5f *data/pbc.txt.gz
+e5b0f5769d4d25c1360309e1f20eb4c4 *man/CoxWeights.Rd
+5291cf974e36fdf9679ed733df13b709 *man/IntegrateAUC.Rd
+321e981aa72fa3bcd7d68917e3667bda *man/KM.plot.Rd
+8591f9c9ff5d12332ce83895c40980bb *man/SchoenSmooth.Rd
+2232127c96c5b9c16c252b304c96f94e *man/llCoxReg.Rd
+42bbb295c3390b0762850e6e0967263d *man/pbc.Rd
+dd20f27e2cc7a9fb296f0c3a347e8f98 *man/riskset.Rd
+e08c251e393db96eeba6b7530e143041 *man/risksetAUC.Rd
+d6b349f00689b70f2f36c848a94451f9 *man/risksetROC.Rd
+2c63c52eabf29b360ee148ff176ef003 *man/weightedKM.Rd

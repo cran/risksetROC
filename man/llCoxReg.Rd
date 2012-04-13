@@ -67,8 +67,11 @@ eta5 <- fit$linear.predictors
 x <- eta5
 nobs <- length(survival.time[survival.status==1])
 span <- 1.0*(nobs^(-0.2))
+
+\dontrun{
 bfnx1 <- llCoxReg(Stime=survival.time, status=survival.status, marker=x,
                    span=span, p=1)
 plot(bfnx1$time, bfnx1$beta[,1], type="l", xlab="Time", ylab="beta(t)")
+}
 }
 \keyword{survival}
