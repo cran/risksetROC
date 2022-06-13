@@ -6,3 +6,6 @@ import(
   survival,
   MASS
 )
+
+importFrom("graphics", "abline", "lines")
+importFrom("stats", "lm", "time")
